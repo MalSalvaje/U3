@@ -21,3 +21,7 @@ class Flor:
 
     def getDescripcion(self):
         return self.__descripcion
+
+    def __str__(self):
+        s='Numero: {} Nombre: {} Color: {} Descripcion: {}'.format(self.__numero,self.__nombre,self.__color,self.__descripcion)
+        return s
