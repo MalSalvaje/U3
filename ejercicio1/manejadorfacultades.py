@@ -25,10 +25,12 @@ class ManejaFacultades:
         for facultad in self.__lista:
             print(facultad)
     def mostrarFacultad(self):
-        cod=int(input('Ingrese codigo de facultad:\n'))
+        print('Ingrese codigo de facultad:\n')
+        cod=int(input('---> '))
         print(self.__lista[cod-1])
     def mostrarCarrera(self):
-        nombre=str(input('Ingrese nombre de la carrera:'))
+        print('Ingrese nombre de carrera:\n')
+        nombre=str(input('---> '))
         i=0
         while i<len(self.__lista) and self.__lista[i].buscarCodigoCarrera(nombre)==-1:
             i=i+1
