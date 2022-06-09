@@ -1,0 +1,155 @@
+{
+    "__class__": "Coleccion",
+    "aparatos": [
+        {
+            "__class__": "Televisor",
+            "__atributos__": {
+                "marca": "Philips",
+                "modelo": "6800 Series",
+                "color": "Negro",
+                "paisDeFabricacion": "Reino Unido",
+                "precioBase": 55000.0,
+                "tipoDePantalla": "led",
+                "pulgadas": 55000.0,
+                "tipoDeDefinicion": "FULL HD",
+                "conexionAInternet": true
+            }
+        },
+        {
+            "__class__": "Heladera",
+            "__atributos__": {
+                "marca": "Patrick",
+                "modelo": "Inverter no frost",
+                "color": "Gris",
+                "paisDeFabricacion": "China",
+                "precioBase": 340000,
+                "capacidadEnLitros": 459,
+                "freezer": true,
+                "ciclica": false
+            }
+        },
+        {
+            "__class__": "Televisor",
+            "__atributos__": {
+                "marca": "Samsung",
+                "modelo": "Series 7",
+                "color": "Negro",
+                "paisDeFabricacion": "Argentina",
+                "precioBase": 100000,
+                "tipoDePantalla": "led",
+                "pulgadas": 55,
+                "tipoDeDefinicion": "FULL HD",
+                "conexionAInternet": true
+            }
+        },
+        {
+            "__class__": "Heladera",
+            "__atributos__": {
+                "marca": "Philco",
+                "modelo": "Freeze",
+                "color": "Plateado",
+                "paisDeFabricacion": "Argentina",
+                "precioBase": 50000.0,
+                "capacidadEnLitros": 450,
+                "freezer": true,
+                "ciclica": true
+            }
+        },
+        {
+            "__class__": "Lavarropas",
+            "__atributos__": {
+                "marca": "Columbia",
+                "modelo": "LSC10000",
+                "color": "Blanco",
+                "paisDeFabricacion": "EE.UU.",
+                "precioBase": 21000,
+                "capacidadDeLavado": 10,
+                "velocidadDeCentrifugado": 600,
+                "cantidadDeProgramas": 5,
+                "tipoDeCarga": "Superior"
+            }
+        },
+        {
+            "__class__": "Heladera",
+            "__atributos__": {
+                "marca": "Bambi",
+                "modelo": "2F1200",
+                "color": "Blanco",
+                "paisDeFabricacion": "Brasil",
+                "precioBase": 80000,
+                "capacidadEnLitros": 328,
+                "freezer": false,
+                "ciclica": true
+            }
+        },
+        {
+            "__class__": "Televisor",
+            "__atributos__": {
+                "marca": "Samsung",
+                "modelo": "Series 7",
+                "color": "Negro",
+                "paisDeFabricacion": "China",
+                "precioBase": 153000.0,
+                "tipoDePantalla": "led",
+                "pulgadas": 65.0,
+                "tipoDeDefinicion": "FULL HD",
+                "conexionAInternet": true
+            }
+        },
+        {
+            "__class__": "Televisor",
+            "__atributos__": {
+                "marca": "TCL",
+                "modelo": "S6500",
+                "color": "Gris",
+                "paisDeFabricacion": "Alemania",
+                "precioBase": 55000,
+                "tipoDePantalla": "lcd",
+                "pulgadas": 42,
+                "tipoDeDefinicion": "HD",
+                "conexionAInternet": false
+            }
+        },
+        {
+            "__class__": "Lavarropas",
+            "__atributos__": {
+                "marca": "Enova",
+                "modelo": "ATH-EWM",
+                "color": "Gris",
+                "paisDeFabricacion": "Chile",
+                "precioBase": 50000,
+                "capacidadDeLavado": 5,
+                "velocidadDeCentrifugado": 1200,
+                "cantidadDeProgramas": 10,
+                "tipoDeCarga": "Frontal"
+            }
+        },
+        {
+            "__class__": "Lavarropas",
+            "__atributos__": {
+                "marca": "Philco",
+                "modelo": "PHLS100P inverter",
+                "color": "Plateado",
+                "paisDeFabricacion": "Argentina",
+                "precioBase": 125500.0,
+                "capacidadDeLavado": 10,
+                "velocidadDeCentrifugado": 1200,
+                "cantidadDeProgramas": 10,
+                "tipoDeCarga": "Frontal"
+            }
+        },
+        {
+            "__class__": "Heladera",
+            "__atributos__": {
+                "marca": "Samsung",
+                "modelo": "RT32K5070",
+                "color": "Gris",
+                "paisDeFabricacion": "China",
+                "precioBase": 126000.0,
+                "capacidadEnLitros": 321,
+                "freezer": true,
+                "ciclica": true
+            }
+        }
+    ]
+}

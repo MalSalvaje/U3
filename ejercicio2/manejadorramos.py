@@ -24,3 +24,12 @@ class ManejadorRamos:
     def mostrarRamos(self):
         for ramo in self.__ramos:
             print(ramo)
+
+    def buscarMasVendidas(self):
+        totales=[0,0,0,0,0]
+        for ramo in self.__ramos:
+            for flor in ramo:
+                totales[flor.getNumero()-1]+=1
+        for i in range(totales):
+            print('La flor {} vendió {} unidades\n'.format(i+1,totales[i]))
+
