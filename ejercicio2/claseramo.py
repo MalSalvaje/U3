@@ -17,11 +17,11 @@ class Ramo:
             self.__flores.append(unaflor)
 
     def getLength(self):
-        return len(self.__flores)
+        return self.__size
 
     def __str__(self):
-        s='Flores en el ramo:\n'
+        s='Flores en el Ramo:\n'
         for flor in self.__flores:
-            s+='{}'.format(flor.__str__())
+            s+='{}\n'.format(flor.__str__())
         return s
 
