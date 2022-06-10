@@ -7,6 +7,6 @@ if __name__=='__main__':
     unacoleccion=unobjectencoder.decodificarDiccionario(d)
     unacoleccion.mostrarTodo()
     unmenu = Menu()
-    unmenu.ejecutarMenu(unacoleccion) 
+    unmenu.ejecutarMenu(unacoleccion)
     #d=unacoleccion.toJSON()
     #unobjectencoder.guardarJSONArchivo(d,'aparatoselectronicos.json')
